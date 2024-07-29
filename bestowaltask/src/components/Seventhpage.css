@@ -1,0 +1,72 @@
+.outerdiv {
+    background: white; 
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.row7 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    flex: 1;
+    padding: 20px; 
+}
+
+.img7 {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+}
+
+.form-container {
+    width: 400px;
+    margin: 0 auto; 
+    margin-left: 60px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.btn7 {
+    
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

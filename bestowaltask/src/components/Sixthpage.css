@@ -1,0 +1,56 @@
+.outerdiv6 {
+    background: linear-gradient(to right, rgb(130, 247, 101), lightyellow); 
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.row6 {
+    background-color: rgba(255, 255, 255, 0.5); 
+    height: 400px;
+    width: 700px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.navigation-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+
+.navigation-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #5d5d5d; 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease; 
+}
+
+.navigation-buttons button:hover {
+    color: gray; 
+}
+
+.img6 {
+    border-radius: 10px;
+    margin-right: 30px;
+    width: 250px;
+    height: 300px;
+}
+
+p {
+    margin-left: 0px;
+    padding-left: 0px;
+}
